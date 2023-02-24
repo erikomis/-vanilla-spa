@@ -45,7 +45,7 @@ const div = document.createElement("div");
 
 const a = document.createElement("a");
 
-a.href = "/login";
+a.href = "/";
 
 a.innerText = "Já tem conta? Faça login";
 
