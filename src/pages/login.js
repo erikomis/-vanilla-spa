@@ -35,7 +35,7 @@ const inputPassword = Input("password", "senha", "", "input-password");
 
 const div = document.createElement("div");
 const a = document.createElement("a");
-a.href = "/home";
+a.href = "/register";
 a.innerText = "Não tem conta? Cadastre-se";
 a.onclick = onNavigate;
 
