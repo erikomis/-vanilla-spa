@@ -7,10 +7,10 @@ export const routes = [
     path: "/home",
     component: Home,
     exact: true,
-    protect: {
-      isAuth: true,
-      redirect: "/",
-    },
+    // protect: {
+    //   isAuth: true,
+    //   redirect: "/",
+    // },
   },
   {
     path: "/register",
